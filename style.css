@@ -1,0 +1,98 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+
+.navbar-heading {
+    width: 50%;
+    margin: 0% auto;
+    padding: 1%;
+    text-align: center;
+    color: #EFF3FF;
+}
+
+.navbar {
+    background-color: #292059;
+}
+
+.col {
+    padding: 1%;
+    text-align: center;
+    color: #292059;
+}
+
+
+.progress-row {
+    background-color: #EFF3FF;
+}
+
+.progress-bar {
+    background-color: #74ed31;
+}
+
+#time {
+    font-size: 1.5em;   
+}
+
+#ques-count {
+    border-radius: 50%;
+    background-color: #EFF3FF;
+    color: black; 
+}
+
+#ques-count:hover {
+    background-color: #292059;
+    color: #EFF3FF;
+}
+
+.btn {
+    margin: 1.5% 3%;
+}
+
+.btn:hover,
+.btn:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+@media (max-width: 600px) {
+    #ques-count {
+        align-items: center;
+        justify-content: center;
+        display: inline-block;
+    }
+}
+
+.questions {
+    color: #292059;
+    margin: 1% auto;
+}
+
+.question-number {
+    font-weight: bold;
+}
+
+@media (max-width: 596px) {
+    .questions {
+        margin: 1% 1%;
+    }
+}
+
+#options-button {
+    border: 1px #292059 solid;
+    color: #292059;
+}
+
+#options-button:hover,
+#options-button:focus {
+    background-color: #292059;
+    color: #EFF3FF;
+}
+
+.correct:focus {
+    background-color: #74ed31;
+}
