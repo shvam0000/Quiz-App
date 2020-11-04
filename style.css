@@ -38,6 +38,7 @@ body {
     font-size: 1.5em;   
 }
 
+
 #ques-count {
     border-radius: 50%;
     background-color: #EFF3FF;
@@ -48,6 +49,7 @@ body {
     background-color: #292059;
     color: #EFF3FF;
 }
+
 
 .btn {
     margin: 1.5% 3%;
@@ -97,3 +99,17 @@ body {
     color: #EFF3FF;
 }
 
+.options-btn {
+    margin: 3% auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#next-btn,
+#prev-btn,
+#remark-btn {
+    background-color: #292059;
+    color: #EFF3FF;
+    border: none;
+}

@@ -1,3 +1,5 @@
+//timer
+
 function startTimer(duration, display) {
     var timer = duration, minutes, seconds;
     setInterval(function () {
@@ -21,3 +23,11 @@ window.onload = function () {
     startTimer(fiveMinutes, display);
 };
 
+let score = 0;
+
+
+
+//mark the correct answer
+//increment the score 
+// move to the next question
+//change the progress bar
