@@ -87,12 +87,13 @@ body {
     color: #292059;
 }
 
+.correct:focus {
+    background-color: #74ed31;
+}
+
 #options-button:hover,
 #options-button:focus {
     background-color: #292059;
     color: #EFF3FF;
 }
 
-.correct:focus {
-    background-color: #74ed31;
-}

@@ -21,8 +21,3 @@ window.onload = function () {
     startTimer(fiveMinutes, display);
 };
 
-var correct = document.getElementsByClassName('correct');
-
-correct.onclick = function() {
-    item.style.backgroundColor = "green";
-}
